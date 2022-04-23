@@ -1,0 +1,7 @@
+{
+  "python": "python -u",
+  "java": "javac -classpath ../$dir/out/$fileName && java ../$dir/out/$fileNameWithoutExt",
+  "cpp": "cd ../$dir/build && cmake .. && make && clear && ./main",
+  "go": "go run",
+  "lua": "lua"
+}
